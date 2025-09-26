@@ -1,5 +1,9 @@
 # Social Book - Learning App
 
+This is my learning project to practice Django by building a simple social media application called "Social Book". The app allows users to create accounts, post updates, and interact with each other.
+
+Based on this video: https://www.youtube.com/watch?v=xSUm6iMtREA
+
 ## Getting started
 
 - Setup a virtual environment (optional but recommended):
@@ -43,4 +47,17 @@
 
   ```bash
   py .\manage.py runserver
+  ```
+
+- Install Pillow for image handling:
+
+  ```bash
+  py -m pip install Pillow
+  ```
+
+- Make migrations and migrate the database:
+
+  ```bash
+  py .\manage.py makemigrations
+  py .\manage.py migrate
   ```
