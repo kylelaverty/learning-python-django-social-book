@@ -61,3 +61,9 @@ Based on this video: https://www.youtube.com/watch?v=xSUm6iMtREA
   py .\manage.py makemigrations
   py .\manage.py migrate
   ```
+
+- Create a superuser to access the admin panel:
+
+  ```bash
+  py .\manage.py createsuperuser
+  ```
